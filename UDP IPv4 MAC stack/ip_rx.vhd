@@ -1,6 +1,6 @@
 --MIT License
 --
---Copyright (c) 2019 Balazs Valer Fekete
+--Copyright (c) 2019 Balazs Valer Fekete fbv81bp@[gmail.com|outlook.hu]
 --
 --Permission is hereby granted, free of charge, to any person obtaining a copy
 --of this software and associated documentation files (the "Software"), to deal
@@ -123,7 +123,7 @@ begin
                             counter <= counter + '1';
                         else
                             state <= DROP;
-                            --IP_frame_error_o <= '1'; --ez itt valszeg nem kell, mert el sem kezdõdött az adás
+                            --IP_frame_error_o <= '1'; --ez itt valszeg nem kell, mert el sem kezdÃµdÃ¶tt az adÃ¡s
                         end if;
                     else
                         counter <= (others => '0');
@@ -142,7 +142,7 @@ begin
                         counter <= counter + '1';
                     else --frame ended abruptly
                         state <= DROP;
-                        --IP_frame_error_o <= '1'; --ez itt valszeg nem kell, mert el sem kezdõdött az adás
+                        --IP_frame_error_o <= '1'; --ez itt valszeg nem kell, mert el sem kezdÃµdÃ¶tt az adÃ¡s
                     end if;
                     --tx_enable_o <= '0';
                     --tx_payload_o <= x"eb";
