@@ -1,6 +1,6 @@
 --MIT License
 --
---Copyright (c) 2019 Balazs Valer Fekete
+--Copyright (c) 2019 Balazs Valer Fekete fbv81bp@[gmail.com|outlook.hu]
 --
 --Permission is hereby granted, free of charge, to any person obtaining a copy
 --of this software and associated documentation files (the "Software"), to deal
@@ -99,7 +99,7 @@ begin
                     if rx_enable = '1' then
                         if header_cnt = '1' then
                             state <= PAYLOAD;
-                            --IP_frame_error_o <= '1'; --ez itt valszeg nem kell, mert el sem kezdõdött az adás
+                            --IP_frame_error_o <= '1'; --ez itt valszeg nem kell, mert el sem kezdÃµdÃ¶tt az adÃ¡s
                         end if;
                     shifter <= shifter (55 downto 0) & rx_payload;
                     counter <= counter + '1';
