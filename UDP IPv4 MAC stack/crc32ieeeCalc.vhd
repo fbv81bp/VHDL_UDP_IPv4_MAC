@@ -1,6 +1,6 @@
 --MIT License
 --
---Copyright (c) 2019 Balazs Valer Fekete
+--Copyright (c) 2019 Balazs Valer Fekete fbv81bp@[gmail.com|outlook.hu]
 --
 --Permission is hereby granted, free of charge, to any person obtaining a copy
 --of this software and associated documentation files (the "Software"), to deal
